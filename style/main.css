@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.resume {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 700px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    text-align: center;
+}
+.header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+h1 {
+    margin: 10px 0;
+    font-size: 28px;
+}
+.contact-info {
+    margin-bottom: 20px;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+.details {
+    margin-bottom: 20px;
+}
+.details h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+.details ul {
+    list-style-type: none;
+    padding: 0;
+}
+.details ul li {
+    margin-bottom: 10px;
+}
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+}
